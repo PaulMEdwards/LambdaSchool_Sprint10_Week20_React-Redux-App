@@ -1,0 +1,45 @@
+.App {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  text-align: center;
+
+  .link {
+    color: #09d3ac;
+  }
+
+  header {
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    
+    .logo {
+      height: 7.5vmin;
+    }
+
+    .search {
+      background-color: black;
+      color: white;
+      width: 50vmin;
+    }
+  }
+
+  section.main {
+    height: 92vh;
+    
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button {
+    margin-bottom: 1em;
+  }
+  .gif {
+    height: 85vh;
+  }
+}
